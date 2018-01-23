@@ -3,7 +3,7 @@ package squares;
 public class Squares_lib implements Squares_if{
 	double x[],y[];
 	double theta[] = new double[2];
-	double eta = 0.001;
+	double eta = 0.01;
 	
 	
 	public Squares_lib(double[] x, double[] y) {
